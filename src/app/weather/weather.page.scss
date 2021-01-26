@@ -1,0 +1,24 @@
+ion-card.weather-card{
+    background-image: url('src/assets/weather.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    height: 150px;
+    font-size: 20px;
+}
+
+ion-content{
+    --ion-background-color: #c7c7c7; 
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+ion-header{
+    --ion-background-color: #c7c7c7; 
+    border-bottom: #505050;
+}
+
+ion-title{
+    font-size: 22px;
+    font-weight: bold;
+}

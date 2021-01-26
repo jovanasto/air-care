@@ -1,0 +1,31 @@
+<ion-header >
+  <ion-toolbar class="toolbar">
+    <ion-title class="title" >Air Care</ion-title>
+   
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="circle" [class.unhealthy]="unhealthy" [class.satisfactory]="satisfactory"  [class.satisfactory]="satisfactory" [class.moderate]="moderate" [class.veryunhealthy]="veryunhealthy"[class.hazard]="hazard"  >
+    <div class="box">
+    <span class="city">  {{city}}  </span>
+    <svg>
+      <circle cx="80" cy="80" r="70" >  </circle>
+    </svg>
+   
+    <div class="pm"> {{pm.substring(0,3)}} PM </div>
+  
+    <div class="description"> {{pm}} </div>
+  </div>
+
+
+</div>
+<ion-footer>
+  <ion-button color="dark" routerLink="/air-care" routerDirection="root" > Home</ion-button>
+  <ion-button color="dark"  routerLink="/map" routerDirection="root"> Map</ion-button>
+  <ion-button color="dark" routerLink="/weather" routerDirection="root" > Weather</ion-button>
+</ion-footer>
+
+</ion-content>
+
+

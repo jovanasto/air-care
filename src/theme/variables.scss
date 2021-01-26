@@ -3,6 +3,9 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+
+  
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +77,7 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+  --ion-background-color:#ffffff;
 }
 
 @media (prefers-color-scheme: dark) {

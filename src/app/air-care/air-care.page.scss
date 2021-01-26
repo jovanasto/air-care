@@ -1,0 +1,128 @@
+ion-toolbar.toolbar{
+    --ion-background-color: #b6b6b6;
+   border-bottom: #505050;
+   visibility: visible;
+}
+
+ion-title.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ion-content{
+    --ion-background-color: #e7e7e7; 
+    --padding-start: 50px;
+    --padding-top: 40px;
+    div.cirlce{
+        position: absolute;
+        margin: 0 auto;
+    }
+    
+    .box{
+        height: 320px;
+        width: 250px;
+        background: #e7e7e7; 
+        position: relative;
+        border-radius: 12px;
+       
+                 
+    }
+    .box .city{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .box svg{
+        height: 200px;
+        width: 180px;
+        position: relative;
+        left: 50%;
+        top: 40%;
+        transform: translate(-40%, -50%);
+    }
+    .box svg circle{ 
+       fill: transparent;
+       stroke: #007eff;
+       stroke-width: 15;
+    
+    }
+    div.circle.satisfactory{
+        .box svg circle{
+            stroke: #00a617;
+        }
+        .box .description{
+            color: #06400e;
+        }
+        .box .pm {
+            color: #06400e;
+        }
+    }
+    div.circle.unhealthy{
+        .box svg circle{
+            stroke: #cf0202;
+        }
+        .box .description{
+            color: #9e0303;
+        }
+        .box .pm {
+            color: #9e0303;
+        }
+    }
+    div.circle.hazard{
+        .box svg circle{
+            stroke:#4f0d78;
+        }
+        .box .description{
+            color: #340352;
+        }
+        .box .pm {
+            color: #340352;
+        }
+    }
+    div.circle.moderate{
+        .box svg circle{
+            stroke: orange;
+        }
+        .box .description{
+            color: #d98e04;
+        }
+        .box .pm {
+            color: #c97200;
+        }
+    }
+    
+    .box .description{
+        position: absolute;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 800;
+        color: #007eff;
+    }
+
+    .box .pm{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-40%, -50%);
+        font-size: 25px;
+        font-weight: 800;
+    }
+}
+
+ion-footer{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: 0px;
+    height: 15%;
+    background: #4d4d4d;
+    ion-button {
+        padding: 15px 5px;
+        width: 100px;
+        height: 50px;
+        border-radius: 14px;
+        
+       
+    }
+}
+
+

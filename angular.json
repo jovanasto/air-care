@@ -32,12 +32,7 @@
               }
             ],
             "styles": [
-              {
-                "input": "src/theme/variables.scss"
-              },
-              {
-                "input": "src/global.scss"
-              }
+               "./node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": []
           },
