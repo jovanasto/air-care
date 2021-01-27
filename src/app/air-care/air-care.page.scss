@@ -42,7 +42,7 @@ ion-content{
     .box svg circle{ 
        fill: transparent;
        stroke: #007eff;
-       stroke-width: 15;
+       stroke-width: 21;
     
     }
     div.circle.satisfactory{
@@ -96,13 +96,14 @@ ion-content{
         font-size: 23px;
         font-weight: 800;
         color: #007eff;
+        padding: 40px 0px;
     }
 
     .box .pm{
         position: absolute;
-        left: 50%;
-        top: 40%;
-        transform: translate(-40%, -50%);
+        left: 55%;
+        top: 45%;
+        transform: translate(-45%, -55%);
         font-size: 25px;
         font-weight: 800;
     }

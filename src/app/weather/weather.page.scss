@@ -21,4 +21,21 @@ ion-header{
 ion-title{
     font-size: 22px;
     font-weight: bold;
+    
+}
+ion-footer{
+    z-index: 1;
+    background: #4d4d4d;
+    height: 200px;
+    bottom: 50px;
+    ion-button{
+        width: 100px;
+        height: 50px;
+        border-radius: 14px;
+    }
+}
+
+
+.weather{
+    padding: 20px 10px;
 }

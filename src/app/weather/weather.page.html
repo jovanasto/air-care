@@ -1,13 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Weather</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content>
-
+<div class="weather">
 {{city}}
 
 <ion-card  class="weather-card"  *ngFor="let uvi of uvi " > {{uvi.day}} <br> Avg. Temperature: {{uvi.avg}}  <br>  Maximum Temperature: {{uvi.max}} <br>   Minimum Temperature: {{uvi.min}}</ion-card>
 
+ </div>
+
+
 </ion-content>
+<ion-footer>
+<ion-button color="secondary" routerLink="/air-care" routerDirection="root"> back </ion-button> 
+</ion-footer>
