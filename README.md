@@ -1,3 +1,3 @@
 # air-care
-run npm install
-ionic serve
+1.run npm install
+2.ionic serve
